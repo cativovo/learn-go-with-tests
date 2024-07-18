@@ -12,7 +12,7 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Arrays and slices - arraysandslices/
 - [x] Structs, methods & interfaces - structsmethodsinterfaces/
 - [x] Pointers & errors - pointerserrors/
-- [ ] Maps
+- [x] Maps - maps/
 - [ ] Dependency Injection
 - [ ] Mocking
 - [ ] Concurrency
