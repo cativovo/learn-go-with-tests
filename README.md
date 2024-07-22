@@ -13,7 +13,7 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Structs, methods & interfaces - structsmethodsinterfaces/
 - [x] Pointers & errors - pointerserrors/
 - [x] Maps - maps/
-- [ ] Dependency Injection
+- [x] Dependency Injection - dependencyinjection/
 - [ ] Mocking
 - [ ] Concurrency
 - [ ] Select
