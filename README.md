@@ -14,7 +14,7 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Pointers & errors - pointerserrors/
 - [x] Maps - maps/
 - [x] Dependency Injection - dependencyinjection/
-- [ ] Mocking
+- [x] Mocking - mocking/
 - [ ] Concurrency
 - [ ] Select
 - [ ] Reflection
