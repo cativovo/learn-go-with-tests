@@ -15,7 +15,7 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Maps - maps/
 - [x] Dependency Injection - dependencyinjection/
 - [x] Mocking - mocking/
-- [ ] Concurrency
+- [x] Concurrency - concurrency/
 - [ ] Select
 - [ ] Reflection
 - [ ] Sync
