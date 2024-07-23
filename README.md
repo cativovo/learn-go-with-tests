@@ -16,7 +16,7 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Dependency Injection - dependencyinjection/
 - [x] Mocking - mocking/
 - [x] Concurrency - concurrency/
-- [ ] Select
+- [x] Select - sselect/
 - [ ] Reflection
 - [ ] Sync
 - [ ] Context
