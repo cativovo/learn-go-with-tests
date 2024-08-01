@@ -17,7 +17,7 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Mocking - mocking/
 - [x] Concurrency - concurrency/
 - [x] Select - sselect/
-- [ ] Reflection
+- [x] Reflection - reflection/
 - [ ] Sync
 - [ ] Context
 - [ ] Intro to property based tests
