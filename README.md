@@ -20,7 +20,7 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Reflection - reflection/
 - [x] Sync - sync/
 - [x] Context - context/
-- [ ] Intro to property based tests
+- [x] Intro to property based tests - introtopropertybasedtests/
 - [ ] Maths
 - [ ] Reading files
 - [ ] Templating
