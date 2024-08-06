@@ -19,7 +19,7 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Select - sselect/
 - [x] Reflection - reflection/
 - [x] Sync - sync/
-- [ ] Context
+- [x] Context - context/
 - [ ] Intro to property based tests
 - [ ] Maths
 - [ ] Reading files
