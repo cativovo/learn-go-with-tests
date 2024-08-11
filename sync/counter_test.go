@@ -40,6 +40,6 @@ func assertCounter(t *testing.T, got *Counter, want int) {
 	t.Helper()
 
 	if v := got.Value(); v != want {
-		t.Fatalf("got %d, want %d", v, want)
+		t.Errorf("got %d, want %d", v, want)
 	}
 }

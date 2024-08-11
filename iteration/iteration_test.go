@@ -10,7 +10,7 @@ func TestRepeat(t *testing.T) {
 	want := "aaaaa"
 
 	if got != want {
-		t.Fatalf("got %q, want %q", got, want)
+		t.Errorf("got %q, want %q", got, want)
 	}
 }
 

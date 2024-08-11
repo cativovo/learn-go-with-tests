@@ -10,7 +10,7 @@ func TestAdd(t *testing.T) {
 	want := 4
 
 	if got != want {
-		t.Fatalf("got %d, want %d", got, want)
+		t.Errorf("got %d, want %d", got, want)
 	}
 }
 

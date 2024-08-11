@@ -20,11 +20,11 @@ func TestRacer(t *testing.T) {
 		want := fastURL
 		got, err := Racer(slowURL, fastURL)
 		if err != nil {
-			t.Fatalf("didn't expect an error but got one %v", err)
+			t.Errorf("didn't expect an error but got one %v", err)
 		}
 
 		if got != want {
-			t.Fatalf("got %q, want %q", got, want)
+			t.Errorf("got %q, want %q", got, want)
 		}
 	})
 
@@ -34,7 +34,7 @@ func TestRacer(t *testing.T) {
 
 		_, err := ConfigurableRacer(server.URL, server.URL, time.Millisecond*10)
 		if err == nil {
-			t.Fatal("expected an error but didn't get one")
+			t.Error("expected an error but didn't get one")
 		}
 	})
 }

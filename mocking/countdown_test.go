@@ -47,7 +47,7 @@ func TestCountdown(t *testing.T) {
 Go!`
 
 		if got != want {
-			t.Fatalf("got %q, want %q", got, want)
+			t.Errorf("got %q, want %q", got, want)
 		}
 	})
 
@@ -68,7 +68,7 @@ Go!`
 		}
 
 		if !reflect.DeepEqual(got, want) {
-			t.Fatalf("got %v, want %v", got, want)
+			t.Errorf("got %v, want %v", got, want)
 		}
 	})
 }
@@ -84,6 +84,6 @@ func TestConfigurableSleeper(t *testing.T) {
 	want := sleepTime
 
 	if got != want {
-		t.Fatalf("got %v, want %v", got, want)
+		t.Errorf("got %v, want %v", got, want)
 	}
 }

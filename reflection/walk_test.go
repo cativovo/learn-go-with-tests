@@ -157,7 +157,7 @@ func TestWalk(t *testing.T) {
 		})
 
 		if !reflect.DeepEqual(got, want) {
-			t.Fatalf("got %v, want %v", got, want)
+			t.Errorf("got %v, want %v", got, want)
 		}
 	})
 
@@ -180,7 +180,7 @@ func TestWalk(t *testing.T) {
 		})
 
 		if !reflect.DeepEqual(got, want) {
-			t.Fatalf("got %v, want %v", got, want)
+			t.Errorf("got %v, want %v", got, want)
 		}
 	})
 }
@@ -197,6 +197,6 @@ func assertContains(t *testing.T, haystack []string, needle string) {
 	}
 
 	if !contains {
-		t.Fatalf("expected %v to contain %q but it didn't", haystack, needle)
+		t.Errorf("expected %v to contain %q but it didn't", haystack, needle)
 	}
 }

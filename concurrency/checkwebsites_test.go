@@ -32,7 +32,7 @@ func TestCheckWebsites(t *testing.T) {
 	got := CheckWebsites(mockWebsiteChecker, websites)
 
 	if !reflect.DeepEqual(got, want) {
-		t.Fatalf("got %v, want %v", got, want)
+		t.Errorf("got %v, want %v", got, want)
 	}
 }
 

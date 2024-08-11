@@ -46,7 +46,7 @@ func TestConvertingToRomanNumeral(t *testing.T) {
 		t.Run(fmt.Sprintf("%d gets converted to %q", test.Arabic, test.Roman), func(t *testing.T) {
 			got := ConvertToRoman(test.Arabic)
 			if got != test.Roman {
-				t.Fatalf("got %q, want %q", got, test.Roman)
+				t.Errorf("got %q, want %q", got, test.Roman)
 			}
 		})
 	}
@@ -57,7 +57,7 @@ func TestConvertingToArabic(t *testing.T) {
 		t.Run(fmt.Sprintf("%q converted to %d", test.Roman, test.Arabic), func(t *testing.T) {
 			got := ConvertToArabic(test.Roman)
 			if got != test.Arabic {
-				t.Fatalf("got %d, want %d", got, test.Arabic)
+				t.Errorf("got %d, want %d", got, test.Arabic)
 			}
 		})
 	}
@@ -78,6 +78,6 @@ func TestPropertiesOfConvertion(t *testing.T) {
 	if err := quick.Check(assertion, &quick.Config{
 		MaxCount: 1000,
 	}); err != nil {
-		t.Fatal("failed checks", err)
+		t.Error("failed checks", err)
 	}
 }

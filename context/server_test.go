@@ -50,7 +50,7 @@ func (s *SpyStore) Cancel() {
 func (s *SpyStore) assertWasNotCancelled() {
 	s.t.Helper()
 	if s.cancelled {
-		s.t.Fatal("store was told to cancel")
+		s.t.Error("store was told to cancel")
 	}
 }
 
@@ -88,7 +88,7 @@ func TestServer(t *testing.T) {
 		server.ServeHTTP(res, req)
 
 		if got := res.Body.String(); got != data {
-			t.Fatalf("got %q, want %q", got, data)
+			t.Errorf("got %q, want %q", got, data)
 		}
 
 		store.assertWasNotCancelled()
@@ -111,7 +111,7 @@ func TestServer(t *testing.T) {
 		server.ServeHTTP(spyRes, req)
 
 		if spyRes.written {
-			t.Fatal("a response should not have been written")
+			t.Error("a response should not have been written")
 		}
 	})
 }

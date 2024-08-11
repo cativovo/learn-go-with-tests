@@ -8,6 +8,6 @@ func TestSum(t *testing.T) {
 	want := 15
 
 	if got != want {
-		t.Fatalf("got %v, want %v, nums %v", got, want, nums)
+		t.Errorf("got %v, want %v, nums %v", got, want, nums)
 	}
 }

@@ -11,7 +11,7 @@ func TestPerimeter(t *testing.T) {
 	want := 40.0
 
 	if got != want {
-		t.Fatalf("got %.2f, want %.2f", got, want)
+		t.Errorf("got %.2f, want %.2f", got, want)
 	}
 }
 
@@ -46,7 +46,7 @@ func TestArea(t *testing.T) {
 		t.Run(name, func(t *testing.T) {
 			got := test.shape.Area()
 			if got != test.want {
-				t.Fatalf("got %g, want %g", got, test.want)
+				t.Errorf("got %g, want %g", got, test.want)
 			}
 		})
 	}
