@@ -21,7 +21,7 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Sync - sync/
 - [x] Context - context/
 - [x] Intro to property based tests - introtopropertybasedtests/
-- [ ] Maths
+- [x] Maths - math/
 - [ ] Reading files
 - [ ] Templating
 - [ ] Generics
