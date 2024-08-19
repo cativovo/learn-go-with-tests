@@ -22,7 +22,7 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Context - context/
 - [x] Intro to property based tests - introtopropertybasedtests/
 - [x] Maths - math/
-- [ ] Reading files
+- [x] Reading files - readingfiles/
 - [ ] Templating
 - [ ] Generics
 - [ ] Revisiting arrays and slices with generics
