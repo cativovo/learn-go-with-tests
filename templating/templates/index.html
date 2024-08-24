@@ -1,0 +1,7 @@
+{{ define "content" }}
+  <ol>
+    {{- range . }}
+      <li><a href="/post/{{ .SanitisedTitle }}">{{ .Title }}</a></li>
+    {{ end -}}
+  </ol>
+{{ end }}
