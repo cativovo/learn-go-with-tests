@@ -4,7 +4,7 @@ https://quii.gitbook.io/learn-go-with-tests
 
 ## Order
 
-### Go Fundamentals
+### Go Fundamentals - go-fundamentals/
 
 - [x] Hello, World - helloworld/
 - [x] Integers - integers/
