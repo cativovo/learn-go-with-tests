@@ -25,4 +25,4 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Reading files - readingfiles/
 - [x] Templating - ./templating/
 - [x] Generics - generics/
-- [ ] Revisiting arrays and slices with generics
+- [x] Revisiting arrays and slices with generics - revisitingarraysandsliceswithgenerics/
