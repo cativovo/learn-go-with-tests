@@ -24,5 +24,5 @@ https://quii.gitbook.io/learn-go-with-tests
 - [x] Maths - math/
 - [x] Reading files - readingfiles/
 - [x] Templating - ./templating/
-- [ ] Generics
+- [x] Generics - generics/
 - [ ] Revisiting arrays and slices with generics
